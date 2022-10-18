@@ -60,6 +60,23 @@ $regular: 'Gotham', sans-serif;
     border-radius: 50%;
   }
 }
+@keyframes pulse2 {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 #e03e2f;
+    border-radius: 50%;
+  }
+  70% {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 15px rgba(38, 49, 49, 0);
+    border-radius: 50%;
+  }
+  to {
+    transform: scale(1);
+    box-shadow: 0 0 0 rgba(24, 30, 30, 0);
+    border-radius: 50%;
+  }
+}
 @keyframes float {
   0% {
     transform: translatey(0px);
@@ -491,6 +508,34 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  &__CTA{
+    position: absolute;
+    top: -10%;
+    right: -18%;
+    border: none;
+    border-radius:10%;
+    width: 180px;
+    height: 120px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+      font-size: 14px;
+      position: relative;
+      color: $grey;
+      &::after{
+        position: absolute;
+        content: url(./product1-img/arrow-wheel.png);
+        transform: scaleX(-1) rotate(-30deg);
+        
+        
+
+      }
+    }
   }
   &__container {
     position: relative;
