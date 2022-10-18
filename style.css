@@ -1,0 +1,166 @@
+@font-face {
+  font-family: "Gotham";
+  src: url("/fonts/Gotham-Medium.otf") format "opentype";
+}
+@font-face {
+  font-family: "GothamBlack";
+  src: url("/fonts/Gotham-Black.otf") format "opentype";
+}
+@-webkit-keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 #a2abc7;
+  }
+  70% {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 15px rgba(162, 193, 218, 0);
+  }
+  to {
+    transform: scale(1);
+    box-shadow: 0 0 0 rgba(141, 149, 188, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 #a2abc7;
+  }
+  70% {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 15px rgba(162, 193, 218, 0);
+  }
+  to {
+    transform: scale(1);
+    box-shadow: 0 0 0 rgba(141, 149, 188, 0);
+  }
+}
+body {
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  overflow-x: hidden;
+  margin: 50px 0;
+  font-family: "GothamBlack", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+.bgVideo {
+  position: relative;
+  opacity: 0.5;
+  transform: rotate(90deg);
+  width: 150%;
+}
+
+main {
+  position: absolute;
+  width: 1080px;
+}
+main .main__title {
+  margin: 50px;
+}
+main .main__title h1 {
+  color: #000;
+  font-weight: 400;
+  font-size: 80px;
+  margin-bottom: 0;
+  line-height: 1;
+}
+main .main__title h1 span {
+  color: #48a4cc;
+  font-weight: 800;
+}
+main .main__productCtn {
+  margin-left: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  min-height: 150vh;
+  background: rgb(255, 255, 255);
+  background: radial-gradient(circle, rgb(255, 255, 255) 42%, rgba(0, 177, 184, 0) 71%);
+}
+main .main__productSingle {
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .main__productSingle:hover {
+  transform: scale(1.05);
+  transition: 0.5s all ease-in-out;
+}
+main .main__productSingle--liftactive {
+  position: absolute;
+  z-index: 11;
+}
+main .main__productSingle--laroche {
+  z-index: 10;
+  position: absolute;
+  right: 16%;
+  top: 22%;
+}
+main .main__productSingle--dercos {
+  position: absolute;
+  z-index: 9;
+  bottom: 0%;
+}
+main .main__productSingle--cerave {
+  position: absolute;
+  z-index: 8;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  right: 22%;
+  bottom: -6%;
+}
+main .main__productContent {
+  margin-right: -50px;
+}
+main .main__productTitle {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 1;
+}
+main .main__productDesc {
+  color: #48a4cc;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+main .main__productLink {
+  background-color: #48a4cc;
+  -webkit-animation: pulse 2s infinite;
+          animation: pulse 2s infinite;
+  margin-top: 50px;
+  text-align: center;
+  padding: 15px 40px;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: bold;
+  letter-spacing: 0.9px;
+  font-size: 20px;
+}
+
+.main__footer {
+  margin: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main__footerLogo {
+  min-width: 200px;
+}
+.main__footerContent h1 {
+  text-transform: uppercase;
+}
+.main__footerContent h2 {
+  text-transform: uppercase;
+  color: #48a4cc;
+}/*# sourceMappingURL=style.css.map */

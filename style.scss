@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('/fonts/Gotham-Medium.otf') format ('opentype');
+  }
+
+  @font-face {
+    font-family: 'GothamBlack';
+    src: url('/fonts/Gotham-Black.otf') format ('opentype');
+  }
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 #a2abc7;
+      
+    }
+    70% {
+      transform: scale(1.05);
+      box-shadow: 0 0 0 15px rgba(162, 193, 218, 0);
+      
+    }
+    to {
+      transform: scale(1);
+      box-shadow: 0 0 0 rgba(141, 149, 188, 0);
+      
+    }
+  }
+  $main-color: #48a4cc;
+  $regular: 'GothamBlack', sans-serif;
+  $second: 'Gotham', sans-serif;
+
+  body {
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    margin: 50px 0;
+    font-family: $regular;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  img {
+    max-width: 100%;
+  }
+  .bgVideo{
+    position: relative;
+    opacity: .5;
+    transform: rotate(90deg);
+    width: 150%;
+  
+  }
+  main{
+    position: absolute;
+    width: 1080px;
+
+    .main__title{
+        margin: 50px;
+        h1{
+            color: #000;
+            font-weight: 400;
+            font-size: 80px;
+            margin-bottom: 0;
+            line-height: 1;
+            span{
+                color: $main-color;
+                font-weight: 800;
+            }
+        }
+        
+    }
+    .main{
+        &__productCtn{
+        margin-left: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        min-height: 150vh;
+        background: rgb(255,255,255);
+        background: radial-gradient(circle, rgba(255,255,255,1) 42%, rgba(0,177,184,0) 71%);
+        }
+        &__productSingle{
+            width: 450px;
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            &:hover{
+                transform: scale(1.05);
+                transition: .5s all ease-in-out;
+            }
+            &--liftactive{
+               position: absolute;
+                z-index: 11;
+            }
+            &--laroche{
+                z-index: 10;
+                position: absolute;
+                right:16%;
+                top: 22%;
+            }
+            &--dercos{
+                position: absolute;
+                z-index: 9;
+                bottom: 0%;
+            }
+            &--cerave{
+               position: absolute;
+                z-index: 8;
+                height: fit-content;
+                right: 22%;
+                bottom: -6%;
+            }
+        }
+        &__productContent{
+          margin-right: -50px;
+        }
+        &__productPackshot{
+
+        }
+        &__productTitle{
+            text-transform: uppercase;
+            font-weight: 800;
+            font-size: 24px;
+            line-height: 1;
+        }
+        &__productDesc{
+            color: $main-color;
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom: 50px;
+        }
+        &__productLink{
+            background-color: $main-color;
+            animation: pulse 2s infinite;
+            margin-top: 50px;
+            text-align: center;
+            padding: 15px 40px;
+            text-decoration: none;
+            color: #fff;
+            text-align: center;
+            border-radius: 10px;
+            font-weight: bold;
+            letter-spacing: .9px;
+            font-size: 20px;
+            
+        }
+    }
+  }
+  .main{
+    &__footer{
+        margin:100px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__footerLogo{
+        min-width: 200px;
+    }
+    &__footerContent{
+        
+        h1{
+            text-transform: uppercase;
+        }
+        h2{
+            text-transform: uppercase;
+            color: $main-color;
+        }
+    }
+  }
