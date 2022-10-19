@@ -32,7 +32,6 @@
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
     overflow-x: hidden;
-    margin: 50px 0;
     font-family: $regular;
     display: flex;
     flex-direction: column;
@@ -44,14 +43,15 @@
   }
   .bgVideo{
     position: relative;
-    opacity: .5;
+    opacity: .4;
     transform: rotate(90deg);
-    width: 150%;
+    // width: 1080px;
+    height: 1380px;
   
   }
   main{
     position: absolute;
-    width: 1080px;
+    width: 100vw;
 
     .main__title{
         margin: 50px;
@@ -74,9 +74,9 @@
         display: flex;
         flex-wrap: wrap;
         position: relative;
-        min-height: 150vh;
-        background: rgb(255,255,255);
-        background: radial-gradient(circle, rgba(255,255,255,1) 42%, rgba(0,177,184,0) 71%);
+        min-height: 1200px;
+        // background: rgb(255,255,255);
+        // background: radial-gradient(circle, rgba(255,255,255,1) 42%, rgba(0,177,184,0) 71%);
         }
         &__productSingle{
             width: 450px;
@@ -100,14 +100,13 @@
             &--dercos{
                 position: absolute;
                 z-index: 9;
-                bottom: 0;
+                bottom: 60px;
             }
             &--cerave{
                position: absolute;
                 z-index: 8;
-                height: fit-content;
-                right: 22%;
-                bottom: -90px;
+                right: 200px;
+                bottom: 0px;
             }
         }
         &__productContent{
@@ -147,7 +146,7 @@
   }
   .main{
     &__footer{
-        margin:100px 0;
+        margin-top: 70px;
         display: flex;
         justify-content: center;
         align-items: center;

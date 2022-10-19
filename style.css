@@ -38,7 +38,6 @@ body {
   margin: 0 auto;
   background-color: rgb(255, 255, 255);
   overflow-x: hidden;
-  margin: 50px 0;
   font-family: "GothamBlack", sans-serif;
   display: flex;
   flex-direction: column;
@@ -51,14 +50,14 @@ img {
 
 .bgVideo {
   position: relative;
-  opacity: 0.5;
+  opacity: 0.4;
   transform: rotate(90deg);
-  width: 150%;
+  height: 1380px;
 }
 
 main {
   position: absolute;
-  width: 1080px;
+  width: 100vw;
 }
 main .main__title {
   margin: 50px;
@@ -79,9 +78,7 @@ main .main__productCtn {
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  min-height: 150vh;
-  background: rgb(255, 255, 255);
-  background: radial-gradient(circle, rgb(255, 255, 255) 42%, rgba(0, 177, 184, 0) 71%);
+  min-height: 1200px;
 }
 main .main__productSingle {
   width: 450px;
@@ -106,16 +103,13 @@ main .main__productSingle--laroche {
 main .main__productSingle--dercos {
   position: absolute;
   z-index: 9;
-  bottom: 0;
+  bottom: 60px;
 }
 main .main__productSingle--cerave {
   position: absolute;
   z-index: 8;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  right: 22%;
-  bottom: -90px;
+  right: 200px;
+  bottom: 0px;
 }
 main .main__productContent {
   margin-right: -50px;
@@ -149,7 +143,7 @@ main .main__productLink {
 }
 
 .main__footer {
-  margin: 100px 0;
+  margin-top: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
