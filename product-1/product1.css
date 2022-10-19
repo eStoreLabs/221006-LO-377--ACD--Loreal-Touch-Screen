@@ -476,6 +476,7 @@ nav .nav__logo img {
   transform-style: preserve-3d;
   cursor: pointer;
   position: relative;
+  font-size: 14px;
 }
 .ingr__cardFace {
   position: absolute;
