@@ -90,22 +90,24 @@
             &--liftactive{
                position: absolute;
                 z-index: 11;
+                left: 50px;
             }
             &--laroche{
                 z-index: 10;
                 position: absolute;
-                right:160px;
+                right:110px;
                 top: 230px;
             }
             &--dercos{
                 position: absolute;
                 z-index: 9;
+                left: 50px;
                 bottom: 60px;
             }
             &--cerave{
                position: absolute;
                 z-index: 8;
-                right: 200px;
+                right: 160px;
                 bottom: 0px;
             }
         }

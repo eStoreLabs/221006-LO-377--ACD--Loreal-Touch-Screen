@@ -93,22 +93,24 @@ main .main__productSingle:hover {
 main .main__productSingle--liftactive {
   position: absolute;
   z-index: 11;
+  left: 50px;
 }
 main .main__productSingle--laroche {
   z-index: 10;
   position: absolute;
-  right: 160px;
+  right: 110px;
   top: 230px;
 }
 main .main__productSingle--dercos {
   position: absolute;
   z-index: 9;
+  left: 50px;
   bottom: 60px;
 }
 main .main__productSingle--cerave {
   position: absolute;
   z-index: 8;
-  right: 200px;
+  right: 160px;
   bottom: 0px;
 }
 main .main__productContent {
