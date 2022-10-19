@@ -275,13 +275,13 @@ nav .nav__logo img {
 }
 
 .intro {
-  margin: 40px 0;
+  margin: 30px 0;
   display: flex;
   align-items: center;
   justify-content: center;
   justify-content: flex-end;
   position: relative;
-  min-height: 600px;
+  min-height: 550px;
   min-width: 1080px;
 }
 .intro__iconsCtn {
@@ -456,8 +456,8 @@ nav .nav__logo img {
   padding: 20px 0;
 }
 .ingr__title {
-  padding: 20px;
-  font-size: 25px;
+  padding: 10px;
+  font-size: 20px;
 }
 .ingr__title span {
   font-weight: bold;
@@ -469,8 +469,8 @@ nav .nav__logo img {
   align-items: center;
 }
 .ingr__singleCard {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   margin: 20px;
   transition: transform 1s;
   transform-style: preserve-3d;
@@ -601,8 +601,8 @@ nav .nav__logo img {
   position: relative;
 }
 .wheel__mainTitle {
-  max-width: 800px;
-  margin: 50px 0;
+  max-width: 700px;
+  margin: 30px 0;
 }
 .wheel__mainTitle h2 {
   font-size: 30px;
@@ -723,17 +723,20 @@ nav .nav__logo img {
   justify-content: center;
   align-items: center;
   border-radius: 15px;
-  margin: 80px 0;
+  margin: 50px 0;
 }
 .wheel__productSingle {
-  width: 180px;
-  height: 250px;
+  width: 150px;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
   border-radius: 20px;
   padding: 20px 0;
   transition: all 0.3s ease-in-out;
+}
+.wheel__productSingle img {
+  max-height: 100%;
 }
 .wheel__productSelected {
   box-shadow: 2px 0px 23px -3px rgb(153, 153, 167);
@@ -806,6 +809,6 @@ nav .nav__logo img {
 .wheel__product-info--active {
   opacity: 1;
   height: auto;
-  max-height: 1000px;
+  max-height: 300px;
   transition: opacity 1s ease;
 }/*# sourceMappingURL=product1.css.map */
