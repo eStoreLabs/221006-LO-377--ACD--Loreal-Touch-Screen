@@ -648,8 +648,8 @@ nav .nav__logo img {
           animation: move 2s infinite;
 }
 .wheel__CtaArrow--1 {
-  rotate: -70deg;
-  top: -60px;
+  rotate: 70deg;
+  bottom: -60px;
   right: 20px;
   opacity: 0.5;
 }

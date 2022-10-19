@@ -545,8 +545,8 @@ nav {
     position: absolute;
     animation: move 2s infinite;
     &--1{
-      rotate: -70deg;
-      top: -60px;
+      rotate: 70deg;
+      bottom: -60px;
       right: 20px;
       opacity: .5;
     }
