@@ -706,7 +706,7 @@ nav .nav__logo img {
 }
 .wheel__contentDesc {
   margin: 10px;
-  text-align: center;
+  text-align: left;
 }
 .wheel__bottomDesc {
   text-align: center;
