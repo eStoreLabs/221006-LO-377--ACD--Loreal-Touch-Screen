@@ -89,6 +89,18 @@ $regular: 'Gotham', sans-serif;
     transform: translatey(0px);
   }
 }
+@keyframes float2 {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-5px);
+  }
+
+  100% {
+    transform: translatey(0px);
+  }
+}
 @keyframes moveBack {
   0% {
     transform: translatex(0px);
@@ -245,6 +257,7 @@ nav {
     position: absolute;
     right: 20px;
     transition: all 0.2s ease-in-out;
+    animation: float2 2s infinite;
     &--open {
       transform: rotate(180deg);
     }
