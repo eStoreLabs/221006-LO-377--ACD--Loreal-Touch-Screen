@@ -257,7 +257,7 @@ nav {
     position: absolute;
     right: 20px;
     transition: all 0.2s ease-in-out;
-    animation: float2 2s infinite;
+
     &--open {
       transform: rotate(180deg);
     }

@@ -356,8 +356,6 @@ nav .nav__logo img {
   position: absolute;
   right: 20px;
   transition: all 0.2s ease-in-out;
-  -webkit-animation: float2 2s infinite;
-          animation: float2 2s infinite;
 }
 .intro__iconsArrow--open {
   transform: rotate(180deg);
