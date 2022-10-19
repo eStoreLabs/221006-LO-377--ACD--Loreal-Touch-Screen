@@ -101,6 +101,18 @@ $regular: 'Gotham', sans-serif;
     transform: translatex(0px);
   }
 }
+@keyframes move {
+  0% {
+    transform: translatex(0px);
+  }
+  50% {
+    transform: translatex(-10px);
+  }
+
+  100% {
+    transform: translatex(0px);
+  }
+}
 @keyframes show-content {
   from {
     opacity: 0;
@@ -511,11 +523,9 @@ nav {
   }
   &__CTA{
     position: absolute;
-    top: -10%;
-    right: -18%;
     border: none;
     border-radius:10%;
-    width: 180px;
+    width: 120px;
     height: 120px;
     font-weight: bold;
     text-align: center;
@@ -523,18 +533,22 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
+    background-color: $grey-light;
     p{
       font-size: 14px;
       position: relative;
       color: $grey;
-      &::after{
-        position: absolute;
-        content: url(./product1-img/arrow-wheel.png);
-        transform: scaleX(-1) rotate(-30deg);
-        
-        
-
-      }
+    }
+  }
+  &__CtaArrow{
+    position: absolute;
+    animation: move 2s infinite;
+    &--1{
+      rotate: -70deg;
+      top: -60px;
+      right: 20px;
+      opacity: .5;
     }
   }
   &__container {

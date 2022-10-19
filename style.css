@@ -79,6 +79,8 @@ main .main__productCtn {
   flex-wrap: wrap;
   position: relative;
   min-height: 1200px;
+  background: rgb(255, 255, 255);
+  background: radial-gradient(circle, rgb(255, 255, 255) 42%, rgba(0, 177, 184, 0) 71%);
 }
 main .main__productSingle {
   width: 450px;
@@ -145,7 +147,7 @@ main .main__productLink {
 }
 
 .main__footer {
-  margin-top: 70px;
+  margin-top: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
