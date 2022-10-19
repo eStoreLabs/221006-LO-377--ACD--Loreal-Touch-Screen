@@ -335,7 +335,7 @@ nav {
   padding: 20px 0;
   &__title {
     padding: 20px;
-    font-size: 25px;
+    font-size: 20px;
     span {
       font-weight: bold;
     }
@@ -345,15 +345,17 @@ nav {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    
   }
   &__singleCard {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     margin: 20px;
     transition: transform 1s;
     transform-style: preserve-3d;
     cursor: pointer;
     position: relative;
+    font-size: 14px;
   }
   &__cardFace {
     position: absolute;
@@ -472,8 +474,8 @@ nav {
 .wheel {
   position: relative;
   &__mainTitle {
-    max-width: 800px;
-    margin: 50px 0;
+    max-width: 700px;
+    margin: 40px 0;
     h2 {
       font-size: 30px;
       text-align: center;
@@ -566,14 +568,17 @@ nav {
     margin: 80px 0;
   }
   &__productSingle {
-    width: 180px;
-    height: 250px;
+    width: 120px;
+    height: 180px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     border-radius: 20px;
     padding: 20px 0;
     transition: all 0.3s ease-in-out;
+    img{
+      max-height: 100%;
+    }
   }
   &__productSelected {
     box-shadow: 2px 0px 23px -3px rgba(153, 153, 167, 1);

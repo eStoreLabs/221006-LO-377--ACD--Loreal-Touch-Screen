@@ -571,7 +571,7 @@ nav .nav__logo img {
 }
 .ingr__bottomImg {
   position: absolute;
-  bottom: -90%;
+  bottom: -100%;
   right: 0;
 }
 .ingr__bottomImg img {
