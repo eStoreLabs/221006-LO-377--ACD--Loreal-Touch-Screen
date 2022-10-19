@@ -74,3 +74,4 @@ products.forEach((product) => {
 options.forEach((option) => {
   new CircleType(document.getElementById(option.id)).radius(180)
 })
+

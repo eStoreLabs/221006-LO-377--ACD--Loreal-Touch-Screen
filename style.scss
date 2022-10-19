@@ -94,20 +94,20 @@
             &--laroche{
                 z-index: 10;
                 position: absolute;
-                right:16%;
-                top: 22%;
+                right:160px;
+                top: 230px;
             }
             &--dercos{
                 position: absolute;
                 z-index: 9;
-                bottom: 0%;
+                bottom: 0;
             }
             &--cerave{
                position: absolute;
                 z-index: 8;
                 height: fit-content;
                 right: 22%;
-                bottom: -6%;
+                bottom: -90px;
             }
         }
         &__productContent{
