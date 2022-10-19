@@ -604,7 +604,7 @@ nav {
     font-weight: bold;
     &--red {
       color: $mainColor;
-      margin-top: 50px;
+      margin-top: 30px;
       text-align: left;
       font-weight: bold;
     }
@@ -618,7 +618,7 @@ nav {
   }
   &__productSingle {
     width: 150px;
-    height: 200px;
+    height: 180px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -679,7 +679,7 @@ nav {
     position: relative;
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 10px;
   }
   &__bg {
     transition: all 0.1s;
