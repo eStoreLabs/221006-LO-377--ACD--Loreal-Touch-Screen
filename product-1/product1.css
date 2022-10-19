@@ -697,25 +697,26 @@ nav .nav__logo img {
   font-weight: bold;
   text-transform: uppercase;
   margin: 10px 0;
-  text-align: center;
+  text-align: left;
 }
 .wheel__contentSubTitle {
   text-transform: uppercase;
   font-weight: 400;
-  text-align: center;
+  text-align: left;
+  margin-bottom: 20px;
 }
 .wheel__contentDesc {
-  margin: 10px;
+  margin: 0px;
   text-align: left;
 }
 .wheel__bottomDesc {
-  text-align: center;
+  text-align: left;
   font-weight: bold;
 }
 .wheel__bottomDesc--red {
   color: #e03e2f;
   margin-top: 50px;
-  text-align: center;
+  text-align: left;
   font-weight: bold;
 }
 .wheel__productsCtn {
