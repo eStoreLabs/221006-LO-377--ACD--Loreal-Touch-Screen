@@ -433,6 +433,7 @@ nav .nav__logo img {
 
 .es-slider__text {
   text-align: center;
+  padding: 0 50px;
   width: 100%;
 }
 
@@ -548,7 +549,7 @@ nav .nav__logo img {
   width: 100%;
   height: 100%;
   border-radius: 10px;
-  background-color: rgb(15, 5, 5);
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -563,12 +564,15 @@ nav .nav__logo img {
   right: 5px;
 }
 .ingr__backText {
-  color: white;
+  color: #000;
   text-align: center;
   padding: 10px;
 }
-.ingr__backText span {
+.ingr__backText--title {
   font-weight: bold;
+}
+.ingr__backText span {
+  font-weight: 800;
 }
 .ingr__bottomImg {
   position: absolute;
