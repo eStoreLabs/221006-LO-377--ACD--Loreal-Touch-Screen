@@ -756,7 +756,7 @@ nav .nav__logo img {
   position: relative;
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 10px;
+  font-size: 9px;
 }
 .wheel__bg {
   transition: all 0.1s;
